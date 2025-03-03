@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-50609-186980.jpg&fm=jpg") no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d14545;
+}
+
+.weather-info {
+    margin-top: 15px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
